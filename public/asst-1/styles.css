@@ -62,12 +62,14 @@ Change your role title so it stands out by adjusting no more than two rules. */
 
 /* Ensure your list element headers and page header have a different font than your body fonts.
 Import no more than three weights of a display font from Google Fonts for this. */
-h3 {
-
+h1 h2 h3 {
+    font-family: 'Sniglet', cursive;
+    font-weight: 800;
 }
 
-h1 {
-
+p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
 }
 /* Set your body background to a pale color 
 and highlight the background of your text and image. */

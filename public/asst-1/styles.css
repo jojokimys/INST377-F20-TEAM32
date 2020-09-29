@@ -43,10 +43,10 @@ to the left of your roles and responsibilities. */
 and your descriptive div to take no less than 2/3 of the space. */
 .image {
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
 }
 
-.image img{
+.image img {
     align-self: flex-end;
     width: 80%;
     height: auto;

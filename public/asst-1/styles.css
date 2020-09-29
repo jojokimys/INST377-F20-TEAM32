@@ -1,11 +1,8 @@
-/* Set your header div to take up the entire width of a page, with no edge spacing
-Ensure all elements are vertically centered within the header block.
-Your name should be to the left, and your image to the right.
-Your elements should wrap when your page size changes.
+/* with no edge spacing
 Your header should have fifteen pixels of space between it and your content div.
 When your page is compressed, your elements should center themselves horizontally. */
 .header {
-    background-color: #D9D8BA;
+    background-color: #997F6D;
     color: #F0EAC2;
     width: 100%;
     padding-bottom: 15px;
@@ -14,8 +11,6 @@ When your page is compressed, your elements should center themselves horizontall
     justify-content: space-between;
 }
 
-/* Using your wrapper div, set your content 
-div to always be horizontally centered in the page. */
 .wrapper {
     background-color: #CCE6BA;
     display: flex;
@@ -28,32 +23,35 @@ div to always be horizontally centered in the page. */
     max-width: 960px;
     display: flex;
     flex-grow: 3;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding: 10px;
 }
 
-/* Ensure your image is on top of your caption text,
-to the left of your roles and responsibilities. */
-/* Set your image and caption to take up no more than 1/3 of the flex space, 
-and your descriptive div to take no less than 2/3 of the space. */
+
 /* Allow your image to take up no more space than the maximum width of your left column.
 Do not change the size of your UMD logo/Testudo picture while doing this. */
 .image {
     flex: 1;
+    margin: 10px;
 }
 
 .image img{
     max-width: 100%;
 }
 
-.description {
-    flex: 2;
+.image p {
+    padding: 10px;
+    background-color: #F0EAC2;
 }
 
-
-
-/* Style your work history entries so that they all end up consistent in their appearance.
-Change your role title so it stands out by adjusting no more than two rules. */
+.description {
+    flex: 2;
+    background-color: #F0EAC2;
+    margin: 10px;
+    padding: 10px;
+}
 
 /* //////////////// Mary Ton //////////////// */
 

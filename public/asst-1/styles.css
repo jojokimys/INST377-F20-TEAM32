@@ -55,7 +55,7 @@ Change your role title so it stands out by adjusting no more than two rules. */
 
 /* Using shorthand, add a solid, one-pixel border to your image. */
 /* Set your image to have rounded corners of 4px. */
-.image {
+.image img {
     border: 1px dotted white;
     border-radius: 4px;
 }
@@ -63,7 +63,7 @@ Change your role title so it stands out by adjusting no more than two rules. */
 /* Ensure your list element headers and page header have a different font than your body fonts.
 Import no more than three weights of a display font from Google Fonts for this. */
 h3 {
-    
+
 }
 
 h1 {

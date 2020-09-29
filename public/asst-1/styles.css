@@ -53,7 +53,7 @@ and your descriptive div to take no less than 2/3 of the space. */
 }
 
 .header img{
-    padding: 10px 10px 0px 10px;
+    padding: 10px 5px 0px 10px;
 }
 /* Allow your image to take up no more space than the maximum width of your left column.
 Do not change the size of your UMD logo/Testudo picture while doing this. */
@@ -77,7 +77,7 @@ Change your role title so it stands out by adjusting no more than two rules. */
 /* Ensure your list element headers and page header have a different font than your body fonts.
 Import no more than three weights of a display font from Google Fonts for this. */
 .header h1 {
-    padding: 20px;
+    padding: 20px 0px 0px 20px;
 }
 
 h1 {

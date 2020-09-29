@@ -2,4 +2,4 @@
 INST377, fall 2020 semester, group 32, project directory
 
 ## Team Members
-Ye Sung Kim (Joseph)
+Ye Sung Kim (Joseph) edit

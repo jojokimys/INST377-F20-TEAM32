@@ -1,0 +1,23 @@
+/* Set your header div to take up the entire width of a page, with no edge spacing
+Ensure all elements are vertically centered within the header block.
+Your name should be to the left, and your image to the right.
+Your elements should wrap when your page size changes.
+Your header should have fifteen pixels of space between it and your content div.
+When your page is compressed, your elements should center themselves horizontally. */
+.header {
+    background-color: #D9D8BA;
+    color: #F0EAC2;
+    width: 100%;
+    
+}
+/* Set your content div to take up no more than 960px of page width. */
+.content {
+    max-width: 960px;
+    align-items: center;
+}
+
+/* Using your wrapper div, set your content 
+div to always be horizontally centered in the page. */
+.wrapper {
+    display: flex;
+}

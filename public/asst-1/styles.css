@@ -8,16 +8,69 @@ When your page is compressed, your elements should center themselves horizontall
     background-color: #D9D8BA;
     color: #F0EAC2;
     width: 100%;
-    
+    padding-bottom: 15px;
+    display: flex;
+    vertical-align: center;
+    justify-content: space-around;
 }
-/* Set your content div to take up no more than 960px of page width. */
-.content {
-    max-width: 960px;
-    align-items: center;
-}
-
 /* Using your wrapper div, set your content 
 div to always be horizontally centered in the page. */
 .wrapper {
+    background-color: #CCE6BA;
     display: flex;
+    justify-content: center;
+}
+
+/* Set your content div to take up no more than 960px of page width. */
+/* Using flexbox, display your main content divs next to one another. */
+.content {
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Ensure your image is on top of your caption text,
+to the left of your roles and responsibilities. */
+/* Set your image and caption to take up no more than 1/3 of the flex space, 
+and your descriptive div to take no less than 2/3 of the space. */
+.image {
+    flex: 
+}
+
+.image img{
+    align-self: flex-end;
+}
+
+
+/* Allow your image to take up no more space than the maximum width of your left column.
+Do not change the size of your UMD logo/Testudo picture while doing this. */
+
+
+
+/* Style your work history entries so that they all end up consistent in their appearance.
+Change your role title so it stands out by adjusting no more than two rules. */
+
+/* //////////////// Mary Ton //////////////// */
+
+/* Using shorthand, add a solid, one-pixel border to your image. */
+
+/* Set your image to have rounded corners of 4px. */
+
+/* Ensure your list element headers and page header have a different font than your body fonts.
+Import no more than three weights of a display font from Google Fonts for this. */
+
+/* Set your body background to a pale color 
+and highlight the background of your text and image. */
+
+/* Add a maximum screen size break at 1000 pixels. */
+
+/* If your display size is less than 1000 pixels...
+set your container to center content in the page
+Set your image-and-caption box to form a row
+Evenly space your image and caption within that row
+Set a bottom margin on your image and caption to ensure good spacing. */
+@media only screen and (max-width: 1000px) {
+    /* Make sure that as your page changes size, 
+    your elements wrap below one another properly. */
 }

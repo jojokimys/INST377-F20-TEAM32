@@ -26,9 +26,10 @@ html, body {
 
 /* Set your content div to take up no more than 960px of page width. */
 /* Using flexbox, display your main content divs next to one another. */
-.content {
+.container {
     max-width: 960px;
     display: flex;
+    flex-direction: row;
     flex-grow: 3;
     flex-wrap: wrap;
     justify-content: center;

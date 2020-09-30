@@ -10,8 +10,10 @@ html, body {
     background-color: #997F6D;
     color: #F0EAC2;
     width: 100%;
-    padding-bottom: 1px;
+    padding: 15px;
+    margin-bottom: 15px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -30,7 +32,6 @@ html, body {
     flex-grow: 3;
     flex-wrap: wrap;
     justify-content: center;
-<<<<<<< HEAD
     align-items: flex-start;
     padding: 10px;
 }
@@ -58,40 +59,6 @@ Do not change the size of your UMD logo/Testudo picture while doing this. */
     margin: 10px;
     padding: 10px;
 }
-=======
-    align-items: center;
-    padding: 10px;
-}
-
-/* Ensure your image is on top of your caption text,
-to the left of your roles and responsibilities. */
-
-/* Set your image and caption to take up no more than 1/3 of the flex space, 
-and your descriptive div to take no less than 2/3 of the space. */
-.image {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.image img {
-    align-self: flex-end;
-    width: 80%;
-    height: auto;
-    border: 1px solid white;
-    border-radius: 4px;
-}
-
-.header img{
-    padding: 10px 5px 0px 10px;
-}
-/* Allow your image to take up no more space than the maximum width of your left column.
-Do not change the size of your UMD logo/Testudo picture while doing this. */
-
-
-
-/* Style your work history entries so that they all end up consistent in their appearance.
-Change your role title so it stands out by adjusting no more than two rules. */
->>>>>>> 542e38d434822041d29786712c24ee2202c79ea0
 
 
 /* //////////////// Mary Ton //////////////// */
@@ -102,7 +69,6 @@ Change your role title so it stands out by adjusting no more than two rules. */
 .image img {
     border: 1px solid white;
     border-radius: 4px;
-    padding: 10px;
 }
 
 /* Ensure your list element headers and page header have a different font than your body fonts.

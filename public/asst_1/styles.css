@@ -42,8 +42,9 @@ html, body {
 /* Allow your image to take up no more space than the maximum width of your left column.
 Do not change the size of your UMD logo/Testudo picture while doing this. */
 .image {
-    flex: 1 0 auto;
+    flex: 0 1 auto;
     padding: 10px;
+    margin-right:15px;
 }
 /* Using shorthand, add a solid, one-pixel border to your image. */
 /* Set your image to have rounded corners of 4px. */

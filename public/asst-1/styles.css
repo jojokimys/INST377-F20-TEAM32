@@ -14,6 +14,7 @@ html, body {
     margin-bottom: 15px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
@@ -30,7 +31,6 @@ html, body {
     max-width: 960px;
     display: flex;
     flex-direction: row;
-    flex-grow: 3;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;

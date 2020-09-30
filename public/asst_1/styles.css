@@ -4,6 +4,7 @@ When your page is compressed, your elements should center themselves horizontall
 html, body {
     margin: 0;
     padding: 0;
+    background-color: #CCE6BA;
 }
 
 .header {
@@ -20,7 +21,6 @@ html, body {
 }
 
 .wrapper {
-    background-color: #CCE6BA;
     display: flex;
     justify-content: center;
 }

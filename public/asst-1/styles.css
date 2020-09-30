@@ -77,6 +77,8 @@ and your descriptive div to take no less than 2/3 of the space. */
     align-self: flex-end;
     width: 80%;
     height: auto;
+    border: 1px solid white;
+    border-radius: 4px;
 }
 
 .header img{
@@ -100,6 +102,7 @@ Change your role title so it stands out by adjusting no more than two rules. */
 .image img {
     border: 1px solid white;
     border-radius: 4px;
+    padding: 10px;
 }
 
 /* Ensure your list element headers and page header have a different font than your body fonts.

@@ -10,7 +10,6 @@ html, body {
 .header {
     background-color: #997F6D;
     color: #F0EAC2;
-    width: 100%;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -57,10 +56,11 @@ Do not change the size of your UMD logo/Testudo picture while doing this. */
 .image p {
     background-color: #F0EAC2;
     padding: 10px;
+    width: 180px;
 }
 
 .description {
-    flex: 0 2 auto;
+    flex: 2;
     background-color: #F0EAC2;
     margin: 10px;
     padding: 10px;
@@ -127,12 +127,17 @@ Set a bottom margin on your image and caption to ensure good spacing. */
     .image {
         flex: 1 0 auto;
         align-content: center;
-        display: flex;
         margin-right: 0px;
+        display: flex;
+        justify-content: space-around;
     }
-    .image p{
-        height: relative;
+    .description {
+        flex: 1 2 auto;
     }
+    .image p {
+        margin: auto 0 auto 0;
+    }
+    
     .description {
         flex-grow: 3;
     }

@@ -60,10 +60,16 @@ Do not change the size of your UMD logo/Testudo picture while doing this. */
 }
 
 .description {
-    flex: 2;
+    flex: 0 2 auto;
     background-color: #F0EAC2;
     margin: 10px;
     padding: 10px;
+}
+
+.description {
+    background-color: #F0EAC2;
+    padding: 10px;
+    border: 1px dashed white;
 }
 
 /* Ensure your list element headers and page header have a different font than your body fonts.
@@ -101,11 +107,6 @@ li {
 and highlight the background of your text and image. */
 
 
-.description {
-    background-color: #F0EAC2;
-    padding: 10px;
-    border: 1px dashed white;
-}
 /* Add a maximum screen size break at 1000 pixels. */
 
 /* If your display size is less than 1000 pixels...
@@ -118,13 +119,16 @@ Set a bottom margin on your image and caption to ensure good spacing. */
 /* Make sure that as your page changes size, 
     your elements wrap below one another properly. */
     .container {
-        flex-flow: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
     }
     .image {
         flex: 1 0 auto;
         align-content: center;
         display: flex;
+        margin-right: 0px;
     }
     .image p{
         height: relative;

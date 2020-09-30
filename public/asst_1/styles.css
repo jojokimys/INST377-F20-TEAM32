@@ -10,7 +10,7 @@ html, body {
     background-color: #997F6D;
     color: #F0EAC2;
     width: 100%;
-    padding-bottom: 1px;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,7 +29,7 @@ html, body {
     display: flex;
     flex-grow: 3;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     padding: 10px;
 }
@@ -38,7 +38,7 @@ html, body {
 /* Allow your image to take up no more space than the maximum width of your left column.
 Do not change the size of your UMD logo/Testudo picture while doing this. */
 .image {
-    flex: 1;
+    flex: 0 1 auto;
     padding: 10px;
 }
 /* Using shorthand, add a solid, one-pixel border to your image. */
